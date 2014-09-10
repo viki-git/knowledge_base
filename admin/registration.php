@@ -1,5 +1,4 @@
 <?php
-require "../config.php";
 include "../link.php";
 if(!isset($_POST['login'])&&(!isset($_POST['password']))) {
 }else {

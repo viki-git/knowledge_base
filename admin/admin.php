@@ -1,5 +1,4 @@
 <?php
-require "../config.php";
 require "session.php";
 include "../link.php";
 if(isset($_GET['section'])&&(isset($_GET['content']))&&(isset($_GET['menu_course'])))

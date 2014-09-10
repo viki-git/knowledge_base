@@ -1,5 +1,4 @@
 <?php
-require "config.php";
 session_start();
 if(isset($_SESSION['role']) && $_SESSION['role']=='admin'){
     include "admin/tinymce.php";

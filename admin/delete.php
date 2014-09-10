@@ -1,5 +1,4 @@
 <?php
-require "../config.php";
 require "session.php";
 if(isset($_GET['del']))
     include "delete_topic.php";
