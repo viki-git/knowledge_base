@@ -24,10 +24,10 @@ session_start();
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-center">
                 <li class="active">
-                    <a href="<?php echo PATH;?>/knowledge_base/courseTitle.php?title_id=1">HTML</a></li>
-                <li><a href="<?php echo PATH;?>/knowledge_base/courseTitle.php?title_id=2">CSS</a></li>
-                <li><a href="<?php echo PATH;?>/knowledge_base/courseTitle.php?title_id=3">JavaScript</a></li>
-                <li><a href="<?php echo PATH;?>/knowledge_base/courseTitle.php?title_id=4">PHP</a></li>
+                    <a href="<?php echo PATH;?>/courseTitle.php?title_id=1">HTML</a></li>
+                <li><a href="<?php echo PATH;?>/courseTitle.php?title_id=2">CSS</a></li>
+                <li><a href="<?php echo PATH;?>/courseTitle.php?title_id=3">JavaScript</a></li>
+                <li><a href="<?php echo PATH;?>/courseTitle.php?title_id=4">PHP</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="admin/registration.php">admin</a></li>

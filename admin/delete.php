@@ -8,7 +8,7 @@ if(isset($_GET['title_id']))
 
 if(isset($_GET['exit'])){
     unset($_SESSION['role']);
-    header("Location: ".PATH."/knowledge_base/index.php");
+    header("Location: ".PATH."/index.php");
 }
 ?>
 <!DOCTYPE html>
@@ -34,10 +34,10 @@ if(isset($_GET['exit'])){
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-center">
-                    <li class="active"><a href="<?php echo PATH;?>/knowledge_base/courseTitle.php?title_id=1">HTML</a></li>
-                    <li><a href="<?php echo PATH;?>/knowledge_base/courseTitle.php?title_id=2">CSS</a></li>
-                    <li><a href="<?php echo PATH;?>/knowledge_base/courseTitle.php?title_id=3">JavaScript</a></li>
-                    <li><a href="<?php echo PATH;?>/knowledge_base/courseTitle.php?title_id=4">PHP</a></li>
+                    <li class="active"><a href="<?php echo PATH;?>/courseTitle.php?title_id=1">HTML</a></li>
+                    <li><a href="<?php echo PATH;?>/courseTitle.php?title_id=2">CSS</a></li>
+                    <li><a href="<?php echo PATH;?>/courseTitle.php?title_id=3">JavaScript</a></li>
+                    <li><a href="<?php echo PATH;?>/courseTitle.php?title_id=4">PHP</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="course.php">Добавить курс</a></li>
