@@ -1,5 +1,6 @@
 <?php
 require "session.php";
+include "../link.php";
 if(isset($_GET['del']))
     include "delete_topic.php";
 ini_set('display_errors', 1);
